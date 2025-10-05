@@ -2,158 +2,179 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Educação para Todos — Acessibilidade Digital</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Educação para Todos — Acessibilidade Digital</title>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.jpg" sizes="32x32">
-  <link rel="apple-touch-icon" href="favicon.jpg">
-  <meta name="theme-color" content="#111111">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.jpg" sizes="32x32">
+    <link rel="apple-touch-icon" href="favicon.jpg">
+    <meta name="theme-color" content="#111111">
 
-  <!-- SEO -->
-  <meta name="description" content="Site educativo sobre inclusão e acessibilidade digital na educação. Narração automática e tradução em Libras.">
-  <meta property="og:title" content="Educação para Todos — Acessibilidade Digital">
-  <meta property="og:description" content="Promovendo práticas inclusivas para tornar a educação acessível a todos.">
-  <meta property="og:image" content="favicon.png">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="pt_BR">
+    <!-- SEO -->
+    <meta name="description"
+        content="Site educativo sobre inclusão e acessibilidade digital na educação. Narração automática e tradução em Libras.">
+    <meta property="og:title" content="Educação para Todos — Acessibilidade Digital">
+    <meta property="og:description" content="Promovendo práticas inclusivas para tornar a educação acessível a todos.">
+    <meta property="og:image" content="favicon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
 
-  <header class="site-header" role="banner">
-    <div class="container header-inner">
-      <div class="brand">
-        <div class="logo" aria-hidden="true">📚</div>
-        <a href="#home" class="site-title">Educação para Todos</a>
-      </div>
-      <nav role="navigation" aria-label="Menu principal">
-        <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
-        <ul id="main-nav" class="nav-list">
-          <li><a href="#home">Início</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#desafios">Desafios</a></li>
-          <li><a href="#recursos">Recursos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-    <section id="home" class="hero" aria-labelledby="hero-title">
-      <div class="container hero-inner">
-        <div class="hero-content">
-          <h1 id="hero-title">Educação para Todos</h1>
-          <p id="hero-desc">Promovendo práticas e recursos que tornam a educação acessível para pessoas com deficiência auditiva e visual. Experimente a narração e a tradução em Libras.</p>
-
-          <div class="hero-actions">
-            <button id="play-audio" class="btn" aria-controls="hero-desc">🔊 Ouvir Narração</button>
-            <button id="stop-audio" class="btn secondary">⏹ Parar</button>
-            <a href="#recursos" class="btn ghost">Ver Recursos</a>
-          </div>
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <div class="brand">
+                <div class="logo" aria-hidden="true">📚</div>
+                <a href="#home" class="site-title">Educação para Todos</a>
+            </div>
+            <nav role="navigation" aria-label="Menu principal">
+                <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+                <ul id="main-nav" class="nav-list">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#desafios">Desafios</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <figure class="hero-figure" aria-hidden="true">
-          <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Pessoa estudando com laptop">
-        </figure>
-      </div>
-    </section>
+    <main id="main">
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <h1 id="hero-title">Educação para Todos</h1>
+                    <p id="hero-desc">Promovendo práticas e recursos que tornam a educação acessível para pessoas com
+                        deficiência auditiva e visual. Experimente a narração e a tradução em Libras.</p>
 
-    <section id="sobre" class="sobre" aria-labelledby="sobre-title">
-      <div class="container">
-        <h2 id="sobre-title">Por que acessibilidade na educação?</h2>
-        <p>Educação inclusiva garante que todas as pessoas — independentemente de diferenças sensoriais — tenham acesso ao conhecimento. Conteúdo claro, leitor de tela compatível, narrações e tradução em Libras são elementos essenciais para diminuir barreiras.</p>
+                    <div class="hero-actions">
+                        <button id="play-audio" class="btn" aria-controls="hero-desc">🔊 Ouvir Narração</button>
+                        <button id="stop-audio" class="btn secondary">⏹ Parar</button>
+                        <a href="#recursos" class="btn ghost">Ver Recursos</a>
+                    </div>
+                </div>
 
-        <p>Este site demonstra técnicas práticas: leitura por voz (Text-to-Speech) para quem tem baixa visão ou prefere ouvir, e o widget VLibras para tradução em Libras, beneficiando pessoas surdas.</p>
-      </div>
-    </section>
+                <figure class="hero-figure" aria-hidden="true">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3"
+                        alt="Pessoa estudando com laptop">
+                </figure>
+            </div>
+        </section>
 
-    <section id="desafios" class="desafios" aria-labelledby="desafios-title">
-      <div class="container">
-        <h2 id="desafios-title">Desafios e Leis da Acessibilidade na Educação</h2>
+        <section id="sobre" class="sobre" aria-labelledby="sobre-title">
+            <div class="container">
+                <h2 id="sobre-title">Por que acessibilidade na educação?</h2>
+                <p>Educação inclusiva garante que todas as pessoas — independentemente de diferenças sensoriais — tenham
+                    acesso ao conhecimento. Conteúdo claro, leitor de tela compatível, narrações e tradução em Libras
+                    são elementos essenciais para diminuir barreiras.</p>
 
-        <p>A acessibilidade educacional ainda enfrenta diversos desafios no Brasil e no mundo. Muitas escolas e plataformas de ensino não estão totalmente adaptadas para atender alunos com deficiência visual, auditiva, motora ou intelectual.</p>
+                <p>Este site demonstra técnicas práticas: leitura por voz (Text-to-Speech) para quem tem baixa visão ou
+                    prefere ouvir, e o widget VLibras para tradução em Libras, beneficiando pessoas surdas.</p>
+            </div>
+        </section>
 
-        <h3>Dificuldades Comuns</h3>
-        <ul>
-          <li>📚 Falta de materiais didáticos acessíveis (como livros em braile ou vídeos com legendas e Libras).</li>
-          <li>💻 Ambientes virtuais de aprendizagem sem compatibilidade com leitores de tela.</li>
-          <li>🏫 Estruturas físicas inadequadas, sem rampas ou sinalização tátil.</li>
-          <li>👩‍🏫 Falta de formação de professores sobre inclusão e tecnologias assistivas.</li>
-        </ul>
+        <section id="desafios" class="desafios" aria-labelledby="desafios-title">
+            <div class="container">
+                <h2 id="desafios-title">Desafios e Leis da Acessibilidade na Educação</h2>
 
-        <h3>Leis e Direitos</h3>
-        <p>No Brasil, a acessibilidade na educação é garantida por lei. Alguns marcos importantes incluem:</p>
-        <ul>
-          <li><strong>Lei Brasileira de Inclusão (Lei nº 13.146/2015)</strong> — assegura o direito à educação inclusiva em todos os níveis de ensino.</li>
-          <li><strong>Decreto nº 5.296/2004</strong> — regulamenta a acessibilidade em espaços físicos e meios de comunicação.</li>
-          <li><strong>Constituição Federal</strong> — garante igualdade de oportunidades e o direito à educação para todos.</li>
-        </ul>
+                <p>A acessibilidade educacional ainda enfrenta diversos desafios no Brasil e no mundo. Muitas escolas e
+                    plataformas de ensino não estão totalmente adaptadas para atender alunos com deficiência visual,
+                    auditiva, motora ou intelectual.</p>
 
-        <h3>Impacto Social</h3>
-        <p>Quando a acessibilidade é negligenciada, milhares de pessoas ficam excluídas do processo educacional e, consequentemente, do mercado de trabalho. A inclusão digital e educacional é fundamental para construir uma sociedade mais justa, empática e produtiva.</p>
+                <h3>Dificuldades Comuns</h3>
+                <ul>
+                    <li>📚 Falta de materiais didáticos acessíveis (como livros em braile ou vídeos com legendas e
+                        Libras).</li>
+                    <li>💻 Ambientes virtuais de aprendizagem sem compatibilidade com leitores de tela.</li>
+                    <li>🏫 Estruturas físicas inadequadas, sem rampas ou sinalização tátil.</li>
+                    <li>👩‍🏫 Falta de formação de professores sobre inclusão e tecnologias assistivas.</li>
+                </ul>
 
-        <p>Promover acessibilidade não é apenas cumprir leis — é garantir que todos tenham o mesmo direito ao aprendizado, à comunicação e ao desenvolvimento pessoal.</p>
-      </div>
-    </section>
+                <h3>Leis e Direitos</h3>
+                <p>No Brasil, a acessibilidade na educação é garantida por lei. Alguns marcos importantes incluem:</p>
+                <ul>
+                    <li><strong>Lei Brasileira de Inclusão (Lei nº 13.146/2015)</strong> — assegura o direito à educação
+                        inclusiva em todos os níveis de ensino.</li>
+                    <li><strong>Decreto nº 5.296/2004</strong> — regulamenta a acessibilidade em espaços físicos e meios
+                        de comunicação.</li>
+                    <li><strong>Constituição Federal</strong> — garante igualdade de oportunidades e o direito à
+                        educação para todos.</li>
+                </ul>
 
-    <section id="recursos" class="recursos" aria-labelledby="recursos-title">
-      <div class="container">
-        <h2 id="recursos-title">Recursos Acessíveis</h2>
-        <div class="cards">
-          <article class="card" aria-labelledby="card1-title">
-            <h3 id="card1-title">Narração Automática</h3>
-            <p>Use o botão "Ouvir Narração" para que o conteúdo principal seja lido em voz alta por seu navegador.</p>
-            <button class="btn read-btn" data-target="#sobre-title">Ouvir Sobre</button>
-          </article>
+                <h3>Impacto Social</h3>
+                <p>Quando a acessibilidade é negligenciada, milhares de pessoas ficam excluídas do processo educacional
+                    e, consequentemente, do mercado de trabalho. A inclusão digital e educacional é fundamental para
+                    construir uma sociedade mais justa, empática e produtiva.</p>
 
-          <article class="card" aria-labelledby="card2-title">
-            <h3 id="card2-title">Tradução em Libras</h3>
-            <p>O widget VLibras traduz automaticamente o conteúdo textual da página para Libras. Ele aparece como um ícone flutuante.</p>
-          </article>
+                <p>Promover acessibilidade não é apenas cumprir leis — é garantir que todos tenham o mesmo direito ao
+                    aprendizado, à comunicação e ao desenvolvimento pessoal.</p>
+            </div>
+        </section>
 
-          <article class="card" aria-labelledby="card3-title">
-            <h3 id="card3-title">Leitura Fácil</h3>
-            <p>Textos escritos de forma clara e objetiva, com contraste alto e espaçamento adequado para facilitar a leitura.</p>
-          </article>
+        <section id="recursos" class="recursos" aria-labelledby="recursos-title">
+            <div class="container">
+                <h2 id="recursos-title">Recursos Acessíveis</h2>
+                <div class="cards">
+                    <article class="card" aria-labelledby="card1-title">
+                        <h3 id="card1-title">Narração Automática</h3>
+                        <p>Use o botão "Ouvir Narração" para que o conteúdo principal seja lido em voz alta por seu
+                            navegador.</p>
+                        <button class="btn read-btn" data-target="#sobre-title">Ouvir Sobre</button>
+                    </article>
+
+                    <article class="card" aria-labelledby="card2-title">
+                        <h3 id="card2-title">Tradução em Libras</h3>
+                        <p>O widget VLibras traduz automaticamente o conteúdo textual da página para Libras. Ele aparece
+                            como um ícone flutuante.</p>
+                    </article>
+
+                    <article class="card" aria-labelledby="card3-title">
+                        <h3 id="card3-title">Leitura Fácil</h3>
+                        <p>Textos escritos de forma clara e objetiva, com contraste alto e espaçamento adequado para
+                            facilitar a leitura.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato" aria-labelledby="contato-title">
+            <div class="container">
+                <h2 id="contato-title">Contato</h2>
+                <p>Quer colaborar ou saber mais? Envie uma mensagem.</p>
+                <p>Telefone/WhatsApp: <a href="tel:+554692000-7229">(46)92000-7229</a></p>
+                <p>E-mail para contato: <a href="mailto:dev.neresdalton@gmail.com">dev.neresdalton@gmail.com</a></p>
+            </div>
+        </section>
+
+        <button id="btn-topo" aria-label="Voltar ao topo">⬆</button>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner" style="text-align:center;">
+            <p>© <span id="ano"></span> Educação para Todos — Projeto demo. Desenvolvido com foco em acessibilidade.</p>
+            <p>Créditos: VLibras para tradução em Libras.</p>
+            <p>Desenvolvido por <a href="https://github.com/daltonneres" target="_blank"
+                    style="color: #98a0ab; text-decoration: none;">Dalton Neres - Full Stack Developer</a></p>
         </div>
-      </div>
-    </section>
+    </footer>
 
-    <section id="contato" class="contato" aria-labelledby="contato-title">
-      <div class="container">
-        <h2 id="contato-title">Contato</h2>
-        <p>Quer colaborar ou saber mais? Envie uma mensagem.</p>
-        <p>Telefone/WhatsApp: <a href="tel:+550000000000">(00) 00000-0000</a></p>
-      </div>
-    </section>
-
-    <button id="btn-topo" aria-label="Voltar ao topo">⬆</button>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner" style="text-align:center;">
-      <p>© <span id="ano"></span> Educação para Todos — Projeto demo. Desenvolvido com foco em acessibilidade.</p>
-      <p>Créditos: VLibras para tradução em Libras.</p>
-      <p>Desenvolvido por <a href="https://github.com/daltonneres" target="_blank" style="color: #98a0ab; text-decoration: none;">Dalton Neres - Full Stack Developer</a></p>
+    <!-- VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
     </div>
-  </footer>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
 
-  <!-- VLibras -->
-  <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-      <div class="vw-plugin-top-wrapper"></div>
-    </div>
-  </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
